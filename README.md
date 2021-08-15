@@ -12,6 +12,8 @@ yarn add erc20-generator
 
 You can import the `EmbeddedTokenGenerator` from the `erc20-generator` package to embed a full page token generator in your page while supplying your own ethereum address for affiliate fees, if any.
 
+This embedded tool allows you to create many different types of token.
+
 ```jsx
 import { EmbeddedTokenGenerator } from "erc20-generator";
 
@@ -25,6 +27,8 @@ export default Example;
 ```
 
 ## Programmatic Token Generation
+
+Currently this method only allows creating fixed-supply tokens with no minting capabilities.
 
 ```jsx
 import { createErc20Token } from "erc20-generator";
